@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+/* box 1 */
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amezonlogo.jpg");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.border{
+    border: 2px transparent solid;
+}
+.border:hover{
+    border: 2px white solid;
+    
+}
+
+/* box 2 */
+
+.add-frist{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* box 3 */
+
+.nav-serch{
+    display: flex;
+    width: 620px;
+    background-color: palevioletred;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.nav-serch:hover{
+    border: orange 2px solid;
+}
+.select-option{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+   
+}
+.select-option:hover{
+    opacity: 0.9;
+}
+.search-bar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 166, 0, 0.728);
+    opacity: 0.8;
+    color:black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.icon:hover{
+    opacity: 1;
+}
+
+/* box 4 */
+.flag{
+    display: flex;
+    color: white;
+    height:45px;
+    width: 65px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flag:hover{
+    /* border: 2px white solid; */
+    box-shadow: 0 0 0 2px #fff;
+
+}
+
+
+.language{
+    font-size:small;
+   
+}
+
+/* box 5 */
+
+.sign-in-hello{
+    font-size: 0.7rem;
+    padding-left: 10px;
+}
+.Account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.sign-in{
+    height:45px;
+    width: 105px;
+    
+}
+.sign-in:hover{
+    /* border: 2px white solid; */
+    box-shadow: 0 0 0 2px #fff;
+
+}
+.sign-in-hello
+{
+    padding-top:5px;
+}
+
+/* box 5 */
+.Return
+{
+    height:45px;
+    width: 60px;
+}
+.Return:hover{
+    /* border: 2px white solid; */
+    box-shadow: 0 0 0 2px #fff;
+
+}
+
+/* box 6 */
+.cart
+{
+    height: 45px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart i
+{
+    font-size: 30px;
+    padding-right: 3px;
+    
+}
+.cart:hover
+{
+    /* border: 2px white solid; */
+    box-shadow: 0 0 0 2px #fff;
+
+}
+
+/* 
+panel */
+.panel div:hover{
+
+    box-shadow: 0 0 0 2px #fff;
+
+}
+/* box 1 */
+.panel{
+    background-color: #0f1111;
+    opacity: 0.8;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    
+}
+.menu{
+    display: flex;
+    height: 35px;
+    width: 58px;
+    justify-content: center;
+    align-items: center;
+}
+.menu i{
+    margin-right: 5px;
+}
+
+
+/* box 2 */
+.Deal{
+    height: 35px;
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* box 3 */
+.customer
+{
+    height: 35px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* box 4 */
+.registry{
+    height:35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box 5 */
+.gift-cards{
+    height: 35px;
+    width: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* box 6 */
+.sell{
+    height: 35px;
+    width: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box 7 */
+.shop{
+    height: 35px;
+    width: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+
+}
+
+
+/* main page  */
+
+.hero-scection
+{
+    background-image: url("71YTsbTxBsL._SX3000_.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.message{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left:170px;
+    top:250px;
+    font-size: 1rem;
+}
+
+/* shop box section  */
+body{
+    background-color: #dbf0f9;
+}
+.shopbox-1
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    margin-top: 10px;
+   
+    background-color: white;
+
+}
+.laptop{
+    background-image: url("XCM_CUTTLE_1622894_3373440_379x304_1X_en_size1_US._SY304_CB597469214_.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 290px;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+.suggestion{
+    font-size:25px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+.link{
+    color: #007185;
+    font-size:15px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.shoes{
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 290px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.fashion{
+    background-image: url("Fuji_Fathers_Day_Dashboard_card_1x_EN._SY304_CB557908564_.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 290px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.game{
+    background-image: url("XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 290px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* shop section 2 */
+.shopbox-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.b1{
+    height: 400px;
+    width: 23%;
+    margin-top: 10px;
+    background-color: white;
+}
+.img-1{
+    
+    height:120px;
+    width:300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    background-image: url("DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img2{
+    background-image: url("DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img-2{
+   
+    height:120px;
+    width:300px;
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img3{
+    background-image: url("DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img4{
+    background-image: url("DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.headline
+{
+    font-size:25px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+.review{
+    color: #007185;
+    font-size:15px;
+    margin-top: 30px;
+    margin-left: 25px;
+
+}
+.img5{
+    background-image: url("DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_\ \(1\).jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img6{
+    background-image: url("DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img7{
+    background-image: url("DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img8{
+    background-image: url("DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img9{
+    background-image: url("2023Q2_GW_EE_LaundryLuxe_D_Quad_186x116._SY116_CB594237035_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img10{
+    background-image: url("2023Q2_GW_EE_AccentFurniture_D_Quad_186x116._SY116_CB594237035_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img11{
+    background-image: url("2023Q2_GW_EE_Hallway_D_Quad_186x116._SY116_CB594237035_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img12{
+    background-image: url("2023Q2_GW_EE_Kitchen_D_Quad_186x116._SY116_CB594237035_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img13{
+    background-image: url("FALL23_HP_Oct_Decor_QuadCard_D_03_186x116._SY116_CB596234042_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img14{
+    background-image: url("FALL23_HP_Oct_Decor_QuadCard_D_04_186x116._SY116_CB596234042_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img15{
+    background-image: url("FALL23_Oct_Pillows_Decor_QuadCard_D_02_186x116._SY116_CB596234042_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+.img16{
+    background-image: url("FALL23_Oct_Wreaths_Decor_QuadCard_D_01_186x116._SY116_CB596234042_.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+/* footer 1 */
+footer
+{
+    margin-top: 10px;
+    
+}
+.foot-1
+{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.foot-2
+{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.p1{
+    margin-top: 50px;
+}
+.p2{
+    margin-top: 50px;
+}
+.p3{
+    margin-top: 50px;
+}
+.p4{
+    margin-top: 50px;
+}
+.foot-2 a
+{
+    color: white;
+    text-decoration: none;
+}
+.heading{
+
+    margin-bottom: 10px;
+}
+
+.foot3
+{
+    height: 120px;
+    background-color:#222f3d ;
+    border-top: white 0.4px solid;
+    display: flex;
+}
+
+.button1
+{
+    height:50px;
+    width: 100px;
+    box-shadow: 0 0 0 1px white ;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+   
+}
+.button2
+{
+    height:50px;
+    width: 100px;
+    box-shadow: 0 0 0 1px white ;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+.button3
+{
+    height:50px;
+    width: 100px;
+    box-shadow: 0 0 0 1px white ;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+.buttton-main{
+    display: flex;
+   margin-left: 550px;
+    align-items: center;
+}
+.buttton-main p{
+    padding-top: 12px;
+}
